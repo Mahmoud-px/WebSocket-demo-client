@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: cursive !important;
+}
+  
+::selection{
+    color: white;
+    background: #002f3d;
+}
+  
+  
+html, body{
+    width: 100% !important;
+    height: 100vh;
+}
+  
+html{
+    overflow-x: hidden;
+}

@@ -1,0 +1,56 @@
+.span{
+    color: rgb(80, 180, 0);
+}
+
+.arrow{
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgb(0, 76, 99);
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .container{
+        padding: 50px !important;
+    }
+
+    .box{
+        padding: 0px 20px !important;
+    }
+
+    .button{
+        padding: 5px 40px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+
+    .container{
+        padding: 50px 15px !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+    }
+
+    .box{
+        width: 100% !important;
+        height: 75% !important;
+        padding: 0px 20px !important;
+    }
+
+    .title{
+        margin-bottom: 60px !important;
+    }
+
+    .info{
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .button{
+        padding: 5px 40px !important;
+    }
+}
